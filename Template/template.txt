@@ -11,3 +11,7 @@ template <class T> inline T bitoff(T n, T pos) { return n & ~((T)1 << pos); }
 template <class T> inline T ison(T n, T pos) { return (bool)(n & ((T)1 << pos)); }
 template <class T> inline T gcd(T a, T b) { while (b) { a = a%b; swap(a, b); } return a; }
 template <class T> inline T bigmod(T p, T e, T m) { T ret = 1; for (; e > 0; e >>= 1) { if (e & 1) ret = (ret * p) % m; p = (p * p) % m; } return (T)ret; 
+
+
+//freopen("out.txt","r",stdin);
+//freopen("output.txt","w",stdout);
