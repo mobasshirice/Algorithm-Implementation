@@ -15,6 +15,7 @@ int count(string &s, int x, int y)
 
 	return c;
 }
+
 int main() {
 
 
